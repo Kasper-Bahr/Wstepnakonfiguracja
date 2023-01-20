@@ -1,3 +1,5 @@
+package creatures;
+
 import devices.Car;
 
 import java.util.Date;
@@ -7,6 +9,16 @@ public class Human {
     String name;
     private double salary;
     private Car car;
+
+    private double cash;
+
+    public double getCash() {
+        return cash;
+    }
+
+    public void setCash(double cash) {
+        this.cash = cash;
+    }
 
     public void setSalary(Double salary) {
         if (salary < 0){
@@ -47,4 +59,6 @@ public class Human {
     public String toString () {
         return "imie" + this.name;
     }
+
+
 }

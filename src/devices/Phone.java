@@ -12,5 +12,13 @@ public class Phone extends Devices{
 
     }
 
+    public void installApp(String appName){}
+    public void installApp(String appName, String appVersion){}
+    public void installApp(String appName, String appVersionm, String serverAddress){}
+
+
+
+
+
 
 }

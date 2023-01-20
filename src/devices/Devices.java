@@ -16,4 +16,9 @@ public abstract class Devices {
     }
 
     public abstract void TurnOn();
+
+
+
+
+
 }
