@@ -3,7 +3,8 @@ import java.util.Date;
 public class Human {
     Animal pet;
     String name;
-    private Double salary;
+    private double salary;
+    private Car car;
 
     public void setSalary(Double salary) {
         if (salary < 0){
@@ -23,9 +24,17 @@ public class Human {
 
 
 
-    private Car car;
+
     public void setCar(Car car) {
-        this.car = car;
+        if (salary >= car.getValue()) {
+            System.out.println("Brawo udało ci się kupić samochód!");
+            this.car = car;
+        } else if (salary >= car.getValue() / 12) {
+            System.out.println("masz wystarczająco kasy by wziac auto w kredyt no trudno :/");
+            this.car = car;
+        }else {
+            System.out.println("idz na studia albo po podwyżke lol");
+        }
     }
     public Car getCar() {
         return car;
