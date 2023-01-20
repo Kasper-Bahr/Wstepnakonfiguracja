@@ -1,20 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        Animal animal = new Animal("Pies", 10.00);
-        System.out.println(animal);
-        animal.takeForAWalk();
-        animal.takeForAWalk();
-        animal.takeForAWalk();
-        animal.takeForAWalk();
-        animal.takeForAWalk();
-        animal.takeForAWalk();
-        animal.takeForAWalk();
-        animal.takeForAWalk();
-        System.out.println(animal);
-        animal.takeForAWalk();
-        animal.takeForAWalk();
-        System.out.println(animal);
-        animal.takeForAWalk();
-        System.out.println(animal);
+        Human human = new Human();
+        System.out.println(human);
+        Car car = new Car("Mustang", "Ford");
+        System.out.println(car);
+        human.setCar(car);
+
+
+
     }
 }
