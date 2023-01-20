@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d01e2688-3968-4654-8e44-0108e79870c3" name="Changes" comment="Zadanie 0 - wstępna konfiguracja" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674242304791</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Zadanie 0 - wstępna konfiguracja">
+      <created>1674242459170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674242459170</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
