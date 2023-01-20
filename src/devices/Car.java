@@ -1,9 +1,13 @@
 package devices;
 
-public class Car {
+public class Car extends Devices {
    private String model;
    private String producer;
    public double value;
+
+    public Car(String producer, String model, int yearOfProduction) {
+        super(producer, model, yearOfProduction);
+    }
 
     public void setValue(double value) {
         this.value = value;
@@ -13,10 +17,7 @@ public class Car {
     return value;
 }
 
-    public Car(String model, String producer) {
-        this.model = model;
-        this.producer = producer;
-    }
+
 
 
     public boolean equals(Object o) {
@@ -26,7 +27,9 @@ public class Car {
         return model.equals(car.model) && producer.equals(car.producer);
     }
 
-    public String toString () {
-        return "Model" + this.model + "Producent" + this.producer;
+
+    @Override
+    public void TurnOn() {
+
     }
 }

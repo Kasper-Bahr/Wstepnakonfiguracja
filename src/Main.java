@@ -1,16 +1,13 @@
 import devices.Car;
+import devices.Phone;
 
 public class Main {
     public static void main(String[] args) {
-        Car car1 = new Car("mustang", "ford");
-        Car car2 = new Car("mustangg", "ford");
-        System.out.println(car1);
-        System.out.println(car2);
-        if (car1.equals(car2)){
-            System.out.println("car 1 jest równy car2");
-        }else {
-            System.out.println("car 1 nie jest równy car2");
-        }
-
-        }
+    Car car = new Car("ford", "Mustnag", 2013);
+    Phone phone = new Phone("apple", "Ihpone 14", 2022 );
+    car.TurnOn();
+    phone.TurnOn();
+        System.out.println(car);
+        System.out.println(phone);
     }
+}
