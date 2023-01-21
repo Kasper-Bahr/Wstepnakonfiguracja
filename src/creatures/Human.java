@@ -9,8 +9,9 @@ public class Human {
     String name;
     private double salary;
     private Car car;
-
     private double cash;
+
+    private Car[] garage;
 
     public double getCash() {
         return cash;
