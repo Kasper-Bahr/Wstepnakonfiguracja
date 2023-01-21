@@ -12,4 +12,8 @@ private int batterySize;
         System.out.println("bateria sie ładuje");
     }
 
+    @Override
+    public int compareTo(Car o) {
+        return 0;
+    }
 }

@@ -13,4 +13,9 @@ public class LPG extends Car {
     public void refuel() {
         System.out.println("bak jest zapełniany");
     }
+
+    @Override
+    public int compareTo(Car o) {
+        return 0;
+    }
 }

@@ -4,6 +4,8 @@ public abstract class Devices {
     private String producer;
     private String model;
     private int yearOfProduction;
+    public Double value = 0.0;
+
 
     public Devices(String producer, String model, int yearOfProduction) {
         this.producer = producer;

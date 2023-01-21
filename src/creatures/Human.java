@@ -2,16 +2,50 @@ package creatures;
 
 import devices.Car;
 
+import java.util.Arrays;
 import java.util.Date;
 
-public class Human {
+public class Human  {
+
+    public final static Integer DEFOULT_GARAGE_SIZE = 3;
+    public final static Integer DEFOULT_START_SALARY = 0;
+
     Animal pet;
     String name;
     private double salary;
     private Car car;
     private double cash;
-
+private String carName;
     private Car[] garage;
+
+
+    public Human(){
+        this.garage = new Car[DEFOULT_GARAGE_SIZE];
+        salary = DEFOULT_START_SALARY;
+    }
+    public Human(Integer garageSize) {
+        this.garage = new Car[garageSize];
+        salary = DEFOULT_START_SALARY;
+    }
+
+
+    public void setCar(Car newCar, Integer parkingLotNumber){
+
+        if (parkingLotNumber >= garage.length){
+            System.out.println("sorry za mały garaż");
+        } else if (parkingLotNumber < 0){
+            System.out.println("nie ma ujemnych miejsc");
+        } else {
+        this.garage[parkingLotNumber] = newCar;
+        }
+    }
+        public Car getCar(Integer parkingLotNumber) {
+        return this.garage[parkingLotNumber];
+        }
+
+        public void sortCarsByValue(){
+            Arrays.sort(this.garage);
+        }
 
     public double getCash() {
         return cash;
@@ -61,5 +95,45 @@ public class Human {
         return "imie" + this.name;
     }
 
+    public boolean hasACar(Car car) {
+        boolean hasACar = false;
+        for (int i = 0;i<this.garage.length;i++){
+            if(this.garage[i] == car){
+                hasACar = true;
+            }
+        }
+        return hasACar;
+    }
 
+    public boolean canHaveMoreCars() {
+        boolean canHaveMoreCars = false;
+        for (int i = 0;i<this.garage.length;i++){
+            if(this.garage[i] == car){
+                canHaveMoreCars = true;
+            }
+        }
+        
+        
+    }
+
+    public boolean hasLessMoneyThan(Double price) {
+        oolean hasLessMoneyThan = false;
+        for (int i = 0;i<this.salary;i++){
+            if(this.salary[i] == car){
+                hasLessMoneyThan = true;
+            }
+        }
+    }
+
+    public void removeCar(Car car) {
+    }
+
+    public void addCar(Car car) {
+    }
+
+    public void addMoney(Double price) {
+    }
+
+    public void collectMoney(Double price) {
+    }
 }
