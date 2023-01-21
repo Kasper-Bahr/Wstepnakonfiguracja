@@ -40,10 +40,7 @@ public abstract class Animal implements Feedable {
         } else {
             weight++;
         }
-        public void feed(double foodWeight)
-        {
 
-        }
   /*  public String toString () {
         return "Rodzaj" + this.species + "Waga:" + this.weight;
     }*/
