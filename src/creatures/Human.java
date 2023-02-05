@@ -117,10 +117,11 @@ private String carName;
     }
 
     public boolean hasLessMoneyThan(Double price) {
-        oolean hasLessMoneyThan = false;
+        boolean hasLessMoneyThan = false;
         for (int i = 0;i<this.salary;i++){
-            if(this.salary[i] == car){
+            if (this.salary[i] == car) {
                 hasLessMoneyThan = true;
+                break;
             }
         }
     }

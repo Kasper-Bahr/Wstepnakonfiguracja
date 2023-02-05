@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d01e2688-3968-4654-8e44-0108e79870c3" name="Changes" comment="zadanie 11">
+    <list default="true" id="d01e2688-3968-4654-8e44-0108e79870c3" name="Changes" comment="Zadanie 12">
+      <change afterPath="$PROJECT_DIR$/src/devices/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tasks to complete.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks to complete.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/creatures/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatures/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devices/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/devices/Devices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Devices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devices/Diesel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Diesel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devices/Electric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Electric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devices/LPG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/LPG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devices/Sellable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sellable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devices/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Phone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674300104022</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Zadanie 12">
+      <created>1674340601099</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1674340601099</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +223,7 @@
     <MESSAGE value="Zadanie 8-9" />
     <MESSAGE value="Zadanie 10" />
     <MESSAGE value="zadanie 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="zadanie 11" />
+    <MESSAGE value="Zadanie 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 12" />
   </component>
 </project>

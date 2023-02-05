@@ -1,18 +1,20 @@
 package devices;
 
 
-import java.awt.*;
 import java.util.List;
 
 public class Phone extends Devices{
 
+
 public static final String DEFAULT_SERVER_ADDRESS = "https://aplikacje.pl.apps";
+
+
 
     public static final String DEFAULT_VERSION = "1.0";
 
 
-    public Phone(String producer, String model, int yearOfProduction) {
-        super(producer, model, yearOfProduction);
+    public Phone(String producer, String model, int yearOfProduction, double money, ) {
+        super(producer, model, yearOfProduction, money);
     }
 
     @Override
@@ -40,7 +42,9 @@ public static final String DEFAULT_SERVER_ADDRESS = "https://aplikacje.pl.apps";
         }
 
     }
-
+        public void installApp(Application app){
+        if(app.getPrice() > this.)
+        }
 
 
 
