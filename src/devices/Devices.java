@@ -8,17 +8,17 @@ public abstract class Devices {
     private String model;
     private int yearOfProduction;
 
-    private ArrayList<Application> apps;
+
     public Double value = 0.0;
 
 
-    public Devices(String producer, String model, int yearOfProduction, double money, ArrayList<Application> apps) {
+    public Devices(String producer, String model, int yearOfProduction) {
         this.producer = producer;
         this.model = model;
         this.yearOfProduction = yearOfProduction;
-        this.money = money;
 
-        this.apps = new ArrayList<Application>();
+
+
     }
 
 

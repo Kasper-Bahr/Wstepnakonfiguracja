@@ -8,24 +8,33 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
+Phone phone = new Phone("apple", "Iphone 14", 2022, 1000.0);
+Application app1 = new Application("Messenger", "41", 0);
+        Application app2 = new Application("youtbue", "4.5", 56.0);
+        Application app3 = new Application("netflix", "6.7", 24);
 
+        phone.installApplication(app1);
 
-        Car tesla =new Electric("tesla", "T", 2020, 100);
-        Car ford =new Diesel("ford", "focus", 2015, 100);
-        Car fiat =new LPG("fiat", "bravo", 2005, 100);
+        phone.installApplication(app3);
 
-        tesla.value = 167000.0;
-        ford.value = 12000.0;
-        fiat.value = 7000.0;
-        Human me = new Human();
-        me.setCar(tesla, 0);
-        me.setCar(ford, 1);
-
-        me.sortCarsByValue();
-        for (int i = 0; i < Human.DEFOULT_GARAGE_SIZE; i++){
-            System.out.println(me.getCar(i));
+        System.out.println("lista zainstalowanych aplikacji");
+        for (Application app: phone.getApplications()){
+            System.out.println(app.getName());
         }
 
+        System.out.println("aplikacja messenger jest zainstalowana" + phone.isAppInstalled(app1));
+        System.out.println("aplikacja youtube jest zainstalowana" + phone.isAppInstalled(app2));
+
+        System.out.println("darmowe aplikacje");
+        phone.printFreeApps();
+
+        System.out.println("posortowane alfabetycznie");
+phone.printAppsInAlphabeticalOrder();
+
+        System.out.println("posortowane według cany");
+        phone.printAppsByPrice();
+
+        System.out.println("laczna ilosc apek" + phone.getTotalValueOfInstalledApps());
     }
 }
 

@@ -105,7 +105,7 @@ private String carName;
         return hasACar;
     }
 
-    public boolean canHaveMoreCars() {
+   /* public boolean canHaveMoreCars() {
         boolean canHaveMoreCars = false;
         for (int i = 0;i<this.garage.length;i++){
             if(this.garage[i] == car){
@@ -124,7 +124,7 @@ private String carName;
                 break;
             }
         }
-    }
+    }*/
 
     public void removeCar(Car car) {
     }
@@ -136,5 +136,13 @@ private String carName;
     }
 
     public void collectMoney(Double price) {
+    }
+
+    public boolean canHaveMoreCars() {
+        return false;
+    }
+
+    public boolean hasLessMoneyThan(Double price) {
+        return false;
     }
 }

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d01e2688-3968-4654-8e44-0108e79870c3" name="Changes" comment="Zadanie 12">
-      <change afterPath="$PROJECT_DIR$/src/devices/Application.java" afterDir="false" />
+    <list default="true" id="d01e2688-3968-4654-8e44-0108e79870c3" name="Changes" comment="Zadanie aplikacje">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creatures/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatures/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devices/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/devices/Devices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Devices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/devices/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Phone.java" afterDir="false" />
     </list>
@@ -196,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674340601099</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Zadanie aplikacje">
+      <created>1675640109435</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1675640109435</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +231,7 @@
     <MESSAGE value="Zadanie 10" />
     <MESSAGE value="zadanie 11" />
     <MESSAGE value="Zadanie 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 12" />
+    <MESSAGE value="Zadanie aplikacje" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie aplikacje" />
   </component>
 </project>

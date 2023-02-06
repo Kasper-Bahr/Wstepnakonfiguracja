@@ -40,12 +40,12 @@ public void sell(Human seller, Human buyer, Double price)throws Exception {
 public abstract void refuel();
 
 
-  /*  public boolean equals(Object o) {
+   public boolean equals(Object o) {
         if(this == o) return true;
         if(o == null || getClass() != o.getClass()) return false;
         Car car = (Car) o;
         return model.equals(car.model) && producer.equals(car.producer);
-    }*/
+    }
 
 public int compereTo (Car otherCar){
     return this.model.compareTo(otherCar.model);
